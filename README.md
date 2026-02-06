@@ -93,7 +93,7 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/AbderrahmaneRaquibi/AbderrahmaneRaquibi/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/RAQUIBIABDERRAHMANE/RAQUIBIABDERRAHMANE/4895df698353568c7b1f15019c09e81081f797d7/snake.svg" alt="Snake animation" />
 
 ###
 
