@@ -199,26 +199,15 @@ A curated, battle-tested technology matrix selected for high performance, mainta
 ### 📊 GitHub Activity & Insights
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=RAQUIBIABDERRAHMANE&show_icons=true&theme=tokyonight&bg_color=0D1117&title_color=38BDF8&text_color=94A3B8&icon_color=0EA5E9&border_color=1E293B&hide_border=false" width="100%" alt="GitHub Stats" />
-      </td>
-      <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RAQUIBIABDERRAHMANE&layout=compact&theme=tokyonight&bg_color=0D1117&title_color=38BDF8&text_color=94A3B8&border_color=1E293B&hide_border=false" width="100%" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
 
-  <br />
-
-  <img src="https://streak-stats.demolab.com?user=RAQUIBIABDERRAHMANE&theme=tokyonight&background=0D1117&border=1E293B&stroke=38BDF8&ring=0EA5E9&fire=38BDF8&currStreakLabel=38BDF8" width="90%" alt="GitHub Streak" />
+  <!-- Native Custom Vector Metrics Card (100% Uptime, Zero External Dependency) -->
+  <img src="./assets/github-metrics.svg" alt="Engineering Metrics and Capabilities" width="100%" />
 
   <br /><br />
 
-  <!-- Contribution Stream Animation -->
+  <!-- Contribution Stream Animation (Local Repository Asset) -->
   <p><strong>Contribution Activity Stream</strong></p>
-  <img src="https://raw.githubusercontent.com/RAQUIBIABDERRAHMANE/RAQUIBIABDERRAHMANE/output/github-snake-dark.svg" alt="GitHub Contribution Snake" width="100%" />
+  <img src="./assets/snake.svg" alt="GitHub Contribution Snake" width="100%" />
   <p><em><sub>Automated daily GitHub contribution stream rendered via GitHub Actions & Platane/snk</sub></em></p>
 
 </div>
@@ -248,6 +237,9 @@ I am actively open to discussing **Full-Stack Product Engineering** roles, SaaS 
   </a>
   <a href="https://github.com/RAQUIBIABDERRAHMANE">
     <img src="https://img.shields.io/badge/GitHub-Profile-0F172A?style=for-the-badge&logo=github&logoColor=white&labelColor=0F172A" alt="GitHub" />
+  </a>
+  <a href="https://www.raquibi.com">
+    <img src="https://img.shields.io/badge/Website-raquibi.com-0F172A?style=for-the-badge&logo=googlechrome&logoColor=38BDF8&labelColor=0F172A" alt="Website" />
   </a>
   <a href="https://wa.me/212665830816">
     <img src="https://img.shields.io/badge/WhatsApp-Chat_Directly-0F172A?style=for-the-badge&logo=whatsapp&logoColor=25D366&labelColor=0F172A" alt="WhatsApp" />

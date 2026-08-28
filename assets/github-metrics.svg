@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="metrics-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#0B0F17" />
+    </linearGradient>
+
+    <!-- Glowing Border -->
+    <linearGradient id="metrics-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#14B8A6" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="metrics-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.5" stroke-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, Monaco, monospace; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="900" height="260" rx="14" fill="url(#metrics-bg)" stroke="url(#metrics-border)" stroke-width="1.2" />
+  <rect width="900" height="260" rx="14" fill="url(#metrics-grid)" />
+
+  <!-- Top Title Header -->
+  <g transform="translate(28, 20)">
+    <circle cx="10" cy="10" r="4" fill="#38BDF8" />
+    <text x="24" y="14" fill="#38BDF8" font-size="12" font-weight="700" class="font-mono" letter-spacing="1">
+      📊 VERIFIED GITHUB LANGUAGE BREAKDOWN &amp; CODEBASE METRICS (44 REPOSITORIES)
+    </text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="28" y1="46" x2="872" y2="46" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Left Column: Actual Verified Language Breakdown -->
+  <g transform="translate(28, 62)">
+    <rect width="400" height="174" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    
+    <text x="18" y="26" fill="#F8FAFC" font-size="12" font-weight="700" class="font-mono">VERIFIED REPOSITORY LANGUAGES</text>
+    
+    <!-- TypeScript: 51.0% -->
+    <g transform="translate(18, 44)">
+      <text x="0" y="12" fill="#E2E8F0" font-size="11.5" class="font-sans" font-weight="600">TypeScript (Next.js / React)</text>
+      <text x="364" y="12" fill="#38BDF8" font-size="11.5" font-weight="700" text-anchor="end" class="font-mono">51.0%</text>
+      <rect y="18" width="364" height="6" rx="3" fill="#1E293B" />
+      <rect y="18" width="186" height="6" rx="3" fill="#38BDF8" />
+    </g>
+
+    <!-- JavaScript / HTML / CSS: 36.7% -->
+    <g transform="translate(18, 76)">
+      <text x="0" y="12" fill="#E2E8F0" font-size="11.5" class="font-sans" font-weight="600">JavaScript / HTML5 / CSS3</text>
+      <text x="364" y="12" fill="#FACC15" font-size="11.5" font-weight="700" text-anchor="end" class="font-mono">36.7%</text>
+      <rect y="18" width="364" height="6" rx="3" fill="#1E293B" />
+      <rect y="18" width="134" height="6" rx="3" fill="#FACC15" />
+    </g>
+
+    <!-- PHP & Blade: 11.0% -->
+    <g transform="translate(18, 108)">
+      <text x="0" y="12" fill="#E2E8F0" font-size="11.5" class="font-sans" font-weight="600">PHP 8.3 &amp; Blade (Laravel Core)</text>
+      <text x="364" y="12" fill="#818CF8" font-size="11.5" font-weight="700" text-anchor="end" class="font-mono">11.0%</text>
+      <rect y="18" width="364" height="6" rx="3" fill="#1E293B" />
+      <rect y="18" width="40" height="6" rx="3" fill="#818CF8" />
+    </g>
+
+    <!-- Python, SQL & DevOps: 1.3% -->
+    <g transform="translate(18, 140)">
+      <text x="0" y="12" fill="#E2E8F0" font-size="11.5" class="font-sans" font-weight="600">Python, PostgreSQL &amp; Docker / Shell</text>
+      <text x="364" y="12" fill="#10B981" font-size="11.5" font-weight="700" text-anchor="end" class="font-mono">1.3%</text>
+      <rect y="18" width="364" height="6" rx="3" fill="#1E293B" />
+      <rect y="18" width="16" height="6" rx="3" fill="#10B981" />
+    </g>
+  </g>
+
+  <!-- Right Column: Engineering Capabilities & Production Standards -->
+  <g transform="translate(448, 62)">
+    <rect width="424" height="174" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    
+    <text x="18" y="26" fill="#F8FAFC" font-size="12" font-weight="700" class="font-mono">PRODUCTION CAPABILITIES &amp; RIGOR</text>
+
+    <!-- Metric Row 1 -->
+    <g transform="translate(18, 44)">
+      <rect width="388" height="26" rx="6" fill="#161F30" />
+      <text x="12" y="17" fill="#94A3B8" font-size="11" class="font-sans">SaaS Architecture:</text>
+      <text x="376" y="17" fill="#38BDF8" font-size="11" font-weight="700" text-anchor="end" class="font-mono">Multi-Tenant Scoping &amp; RBAC</text>
+    </g>
+
+    <!-- Metric Row 2 -->
+    <g transform="translate(18, 76)">
+      <rect width="388" height="26" rx="6" fill="#161F30" />
+      <text x="12" y="17" fill="#94A3B8" font-size="11" class="font-sans">Real-Time POS Engine:</text>
+      <text x="376" y="17" fill="#14B8A6" font-size="11" font-weight="700" text-anchor="end" class="font-mono">Sub-100ms &amp; Offline Resilient</text>
+    </g>
+
+    <!-- Metric Row 3 -->
+    <g transform="translate(18, 108)">
+      <rect width="388" height="26" rx="6" fill="#161F30" />
+      <text x="12" y="17" fill="#94A3B8" font-size="11" class="font-sans">AI &amp; Automation:</text>
+      <text x="376" y="17" fill="#A855F7" font-size="11" font-weight="700" text-anchor="end" class="font-mono">RAG Pipelines + Voice to Invoicing</text>
+    </g>
+
+    <!-- Metric Row 4 -->
+    <g transform="translate(18, 140)">
+      <rect width="388" height="26" rx="6" fill="#161F30" />
+      <text x="12" y="17" fill="#94A3B8" font-size="11" class="font-sans">Remote Collaboration:</text>
+      <text x="376" y="17" fill="#10B981" font-size="11" font-weight="700" text-anchor="end" class="font-mono">🇨🇦 Canada / Global Async Ready</text>
+    </g>
+  </g>
+
+</svg>
