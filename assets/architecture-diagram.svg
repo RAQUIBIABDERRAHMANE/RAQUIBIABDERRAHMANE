@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 390" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="arch-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#0B0F17" />
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Header Gradient -->
+    <linearGradient id="top-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#14B8A6" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="card-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0284C7" flood-opacity="0.2" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="arch-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'Fira Code', 'JetBrains Mono', ui-monospace, monospace; }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="900" height="390" rx="14" fill="url(#arch-bg)" stroke="#1E293B" stroke-width="1.5" />
+  <rect width="900" height="390" rx="14" fill="url(#arch-grid)" />
+
+  <!-- Top Title Banner -->
+  <g transform="translate(30, 20)">
+    <rect width="840" height="46" rx="8" fill="#0F172A" stroke="url(#top-grad)" stroke-width="1.2" />
+    <text x="420" y="28" fill="#F8FAFC" font-size="14" font-weight="800" text-anchor="middle" class="font-mono" letter-spacing="1.5">
+      🚀 FIRSTSTEP BUSINESS OS · SYSTEM ARCHITECTURE
+    </text>
+  </g>
+
+  <!-- Connective Data Lines from Header to 3 Columns -->
+  <path d="M 450 66 L 450 86 M 175 86 L 725 86 M 175 86 L 175 106 M 450 86 L 450 106 M 725 86 L 725 106" 
+        fill="none" stroke="#0284C7" stroke-width="1.5" stroke-dasharray="3 3" />
+
+  <!-- 3 Core Application Columns -->
+  
+  <!-- Column 1: Frontend & UI Engine -->
+  <g transform="translate(30, 106)">
+    <rect width="266" height="136" rx="10" fill="url(#card-bg)" stroke="#0284C7" stroke-width="1.2" filter="url(#card-glow)" />
+    <!-- Header -->
+    <rect width="266" height="32" rx="10" fill="#0F172A" />
+    <circle cx="16" cy="16" r="4" fill="#38BDF8" />
+    <text x="28" y="20" fill="#38BDF8" font-size="11" font-weight="700" class="font-mono">FRONTEND &amp; UI ENGINE</text>
+    <!-- Content items -->
+    <text x="16" y="56" fill="#F8FAFC" font-size="12" font-weight="600" class="font-sans">⚡ Next.js 14+ (App Router)</text>
+    <text x="16" y="78" fill="#94A3B8" font-size="12" font-weight="400" class="font-sans">⚡ TypeScript · React 18 · Tailwind</text>
+    <text x="16" y="100" fill="#94A3B8" font-size="12" font-weight="400" class="font-sans">⚡ Sub-Second POS Touch Interface</text>
+    <text x="16" y="122" fill="#38BDF8" font-size="11" font-weight="500" class="font-mono">Optimistic State &amp; Offline Sync</text>
+  </g>
+
+  <!-- Column 2: Backend Core & APIs -->
+  <g transform="translate(316, 106)">
+    <rect width="268" height="136" rx="10" fill="url(#card-bg)" stroke="#14B8A6" stroke-width="1.2" filter="url(#card-glow)" />
+    <!-- Header -->
+    <rect width="268" height="32" rx="10" fill="#0F172A" />
+    <circle cx="16" cy="16" r="4" fill="#14B8A6" />
+    <text x="28" y="20" fill="#14B8A6" font-size="11" font-weight="700" class="font-mono">BACKEND API &amp; EVENT CORE</text>
+    <!-- Content items -->
+    <text x="16" y="56" fill="#F8FAFC" font-size="12" font-weight="600" class="font-sans">⚙️ Laravel 11 &amp; PHP 8.3 Engine</text>
+    <text x="16" y="78" fill="#94A3B8" font-size="12" font-weight="400" class="font-sans">⚙️ Multi-Tenant Scoping &amp; RBAC</text>
+    <text x="16" y="100" fill="#94A3B8" font-size="12" font-weight="400" class="font-sans">⚙️ WebSockets Live Broadcasting</text>
+    <text x="16" y="122" fill="#14B8A6" font-size="11" font-weight="500" class="font-mono">Asynchronous Job Queue Workers</text>
+  </g>
+
+  <!-- Column 3: AI & Automation Engine -->
+  <g transform="translate(604, 106)">
+    <rect width="266" height="136" rx="10" fill="url(#card-bg)" stroke="#8B5CF6" stroke-width="1.2" filter="url(#card-glow)" />
+    <!-- Header -->
+    <rect width="266" height="32" rx="10" fill="#0F172A" />
+    <circle cx="16" cy="16" r="4" fill="#A78BFA" />
+    <text x="28" y="20" fill="#A78BFA" font-size="11" font-weight="700" class="font-mono">AI &amp; AUTOMATION ENGINE</text>
+    <!-- Content items -->
+    <text x="16" y="56" fill="#F8FAFC" font-size="12" font-weight="600" class="font-sans">🧠 LLM APIs &amp; Business Copilot</text>
+    <text x="16" y="78" fill="#94A3B8" font-size="12" font-weight="400" class="font-sans">🧠 Context-Aware RAG Knowledge</text>
+    <text x="16" y="100" fill="#94A3B8" font-size="12" font-weight="400" class="font-sans">🧠 Whisper Voice-to-Invoice</text>
+    <text x="16" y="122" fill="#A78BFA" font-size="11" font-weight="500" class="font-mono">n8n Event-Driven Dispatchers</text>
+  </g>
+
+  <!-- Connective Data Lines from 3 Columns to Data & Infra Layers -->
+  <path d="M 163 242 L 163 260 M 450 242 L 450 260 M 737 242 L 737 260 M 163 260 L 737 260 M 240 260 L 240 274 M 660 260 L 660 274" 
+        fill="none" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Bottom Row: Data Layer & Cloud Infrastructure -->
+  
+  <!-- Data & Storage Layer -->
+  <g transform="translate(30, 274)">
+    <rect width="410" height="96" rx="10" fill="#0F172A" stroke="#334155" stroke-width="1.2" />
+    <text x="16" y="26" fill="#38BDF8" font-size="11" font-weight="700" class="font-mono">💾 HIGH-PERFORMANCE DATA LAYER</text>
+    <text x="16" y="52" fill="#F8FAFC" font-size="12" font-weight="600" class="font-sans">PostgreSQL 16</text>
+    <text x="108" y="52" fill="#94A3B8" font-size="12" class="font-sans">(Row-level tenant isolation &amp; indexing)</text>
+    <text x="16" y="74" fill="#F8FAFC" font-size="12" font-weight="600" class="font-sans">Redis 7</text>
+    <text x="68" y="74" fill="#94A3B8" font-size="12" class="font-sans">(Session state, pub/sub feeds &amp; lock manager)</text>
+  </g>
+
+  <!-- Cloud Infrastructure & Edge -->
+  <g transform="translate(460, 274)">
+    <rect width="410" height="96" rx="10" fill="#0F172A" stroke="#334155" stroke-width="1.2" />
+    <text x="16" y="26" fill="#14B8A6" font-size="11" font-weight="700" class="font-mono">🛡️ INFRASTRUCTURE &amp; EDGE DELIVERY</text>
+    <text x="16" y="52" fill="#F8FAFC" font-size="12" font-weight="600" class="font-sans">Docker &amp; Linux</text>
+    <text x="110" y="52" fill="#94A3B8" font-size="12" class="font-sans">(Containerized micro-services &amp; Nginx)</text>
+    <text x="16" y="74" fill="#F8FAFC" font-size="12" font-weight="600" class="font-sans">Cloudflare &amp; CI/CD</text>
+    <text x="130" y="74" fill="#94A3B8" font-size="12" class="font-sans">(DDoS mitigation, SSL &amp; GitHub Actions)</text>
+  </g>
+
+</svg>
