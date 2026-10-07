@@ -176,7 +176,8 @@ A curated, battle-tested technology matrix selected for high performance, mainta
 <div align="center">
   <p>
     <a href="https://firststepco.com" target="_blank"><strong>🌐 Platform Overview: firststepco.com</strong></a> &nbsp;•&nbsp;
-    <a href="https://crm.firststepco.com" target="_blank"><strong>⚡ Core App Engine: crm.firststepco.com</strong></a>
+    <a href="https://crm.firststepco.com" target="_blank"><strong>⚡ Core App Engine: crm.firststepco.com</strong></a> &nbsp;•&nbsp;
+    <a href="./docs/architecture.md"><strong>📚 Architecture Case Study</strong></a>
   </p>
   <img src="./assets/architecture-diagram.svg" alt="FirstStep Business OS Architecture Blueprint" width="100%" />
 </div>
