@@ -79,38 +79,38 @@
     </g>
   </g>
 
-  <!-- Right Column: Engineering Capabilities & Production Standards -->
+  <!-- Right Column: Production Benchmarks & Canadian Tech Fit -->
   <g transform="translate(448, 62)">
     <rect width="424" height="174" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
     
-    <text x="18" y="26" fill="#F8FAFC" font-size="12" font-weight="700" class="font-mono">PRODUCTION CAPABILITIES &amp; RIGOR</text>
+    <text x="18" y="26" fill="#F8FAFC" font-size="12" font-weight="700" class="font-mono">PRODUCTION BENCHMARKS &amp; CANADIAN FIT</text>
 
     <!-- Metric Row 1 -->
     <g transform="translate(18, 44)">
       <rect width="388" height="26" rx="6" fill="#161F30" />
-      <text x="12" y="17" fill="#94A3B8" font-size="11" class="font-sans">SaaS Architecture:</text>
-      <text x="376" y="17" fill="#38BDF8" font-size="11" font-weight="700" text-anchor="end" class="font-mono">Multi-Tenant Scoping &amp; RBAC</text>
+      <text x="12" y="17" fill="#94A3B8" font-size="11" class="font-sans">POS Checkout Latency:</text>
+      <text x="376" y="17" fill="#38BDF8" font-size="11" font-weight="700" text-anchor="end" class="font-mono">&lt; 85ms Scan-to-Cart Pipeline</text>
     </g>
 
     <!-- Metric Row 2 -->
     <g transform="translate(18, 76)">
       <rect width="388" height="26" rx="6" fill="#161F30" />
-      <text x="12" y="17" fill="#94A3B8" font-size="11" class="font-sans">Real-Time POS Engine:</text>
-      <text x="376" y="17" fill="#14B8A6" font-size="11" font-weight="700" text-anchor="end" class="font-mono">Sub-100ms &amp; Offline Resilient</text>
+      <text x="12" y="17" fill="#94A3B8" font-size="11" class="font-sans">Query Optimization:</text>
+      <text x="376" y="17" fill="#14B8A6" font-size="11" font-weight="700" text-anchor="end" class="font-mono">2.4s ➔ 18ms (Indexes/Plans)</text>
     </g>
 
     <!-- Metric Row 3 -->
     <g transform="translate(18, 108)">
       <rect width="388" height="26" rx="6" fill="#161F30" />
-      <text x="12" y="17" fill="#94A3B8" font-size="11" class="font-sans">AI &amp; Automation:</text>
-      <text x="376" y="17" fill="#A855F7" font-size="11" font-weight="700" text-anchor="end" class="font-mono">RAG Pipelines + Voice to Invoicing</text>
+      <text x="12" y="17" fill="#94A3B8" font-size="11" class="font-sans">Concurrency Safety:</text>
+      <text x="376" y="17" fill="#A855F7" font-size="11" font-weight="700" text-anchor="end" class="font-mono">Pessimistic Locking (No Oversell)</text>
     </g>
 
     <!-- Metric Row 4 -->
     <g transform="translate(18, 140)">
       <rect width="388" height="26" rx="6" fill="#161F30" />
-      <text x="12" y="17" fill="#94A3B8" font-size="11" class="font-sans">Remote Collaboration:</text>
-      <text x="376" y="17" fill="#10B981" font-size="11" font-weight="700" text-anchor="end" class="font-mono">🇨🇦 Canada / Global Async Ready</text>
+      <text x="12" y="17" fill="#94A3B8" font-size="11" class="font-sans">Canadian Tech Fit:</text>
+      <text x="376" y="17" fill="#10B981" font-size="11" font-weight="700" text-anchor="end" class="font-mono">🇨🇦 Bilingual EN/FR · 4-5h EST Overlap</text>
     </g>
   </g>
 

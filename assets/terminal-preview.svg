@@ -57,7 +57,7 @@
 
     <!-- Output 5 Status Ready -->
     <text y="118">
-      <tspan fill="#F59E0B">⚡ System Ready:</tspan> <tspan fill="#F8FAFC" font-weight="700">FirstStep Business OS is Live</tspan> <tspan fill="#64748B">|</tspan> <tspan fill="#10B981">Open to Canadian Tech &amp; Global Remote Teams</tspan>
+      <tspan fill="#F59E0B">⚡ System Ready:</tspan> <tspan fill="#F8FAFC" font-weight="700">FirstStep Business OS is Live</tspan> <tspan fill="#64748B">|</tspan> <tspan fill="#10B981">🇨🇦 Bilingual (EN/FR) · 4-5h EST Overlap</tspan>
     </text>
   </g>
 </svg>
